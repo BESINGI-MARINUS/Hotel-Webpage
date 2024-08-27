@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/favicon.png" alt="Trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <img src="./img/SVG/search.svg" alt="search icon" class="icon" />
+        </form>
+
+        <div class="user">
+          <div class="user__notification-box notifications">
+            <img
+              src="img/SVG/bookmark.svg"
+              alt="bookmark icon"
+              class="user__icon"
+            />
+            <span class="user__notification-text">7</span>
+          </div>
+
+          <div class="user__notification-box notifications">
+            <img
+              src="img/SVG/message.svg"
+              alt="message icon"
+              class="user__icon"
+            />
+            <span class="user__notification-text">13</span>
+          </div>
+
+          <div class="user__notification-box">
+            <img src="img/marinus.jpg" alt="User image" class="user-img" />
+            <span class="user__notification-text">MARINUS</span>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <!-- ===============Side Navigation================== -->
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item-active">
+              <a href="#">
+                <img src="img/SVG/home.svg" alt="" />
+                <span>HOTEL</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#">
+                <img src="img/SVG/aircraft-take-off.svg" alt="" />
+                <span>FLIGHT</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#">
+                <img src="img/SVG/key.svg" alt="" />
+                <span>CAR RENTAL</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#">
+                <img src="img/SVG/map.svg" alt="" />
+                <span>TOURS</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2024 by Marinus. All rights reserved.</div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="./img/img_5terre.jpg"
+                alt="hotel image 1"
+                class="gallery__item-img"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./img/bridge.jpg"
+                alt="hotel image 2"
+                class="gallery__item-img"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./img/mountains.jpg"
+                alt="hotel image 3"
+                class="gallery__item-img"
+              />
+            </figure>
+          </div>
+          <!-- =================Overview==================== -->
+          <div class="overview">
+            <h1 class="heading">HOTEL LAS VEGAS</h1>
+
+            <div class="overview__stars">
+              <img src="./img/SVG/star.svg" alt="star icon" class="star-icon" />
+              <img src="./img/SVG/star.svg" alt="star icon" class="star-icon" />
+              <img src="./img/SVG/star.svg" alt="star icon" class="star-icon" />
+              <img src="./img/SVG/star.svg" alt="star icon" class="star-icon" />
+              <img src="./img/SVG/star.svg" alt="star icon" class="star-icon" />
+            </div>
+
+            <div class="overview__location">
+              <img
+                src="./img/SVG/location-pin.svg"
+                alt="location icon"
+                class="location__icon"
+              />
+              <button class="inline__btn">nevada, USA</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.7</div>
+              <div class="overview__rating-count">458 counts</div>
+            </div>
+          </div>
+          <!-- ==============Description================ -->
+          <div class="details">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                laudantium asperiores consequatur molestiae, itaque consectetur
+                alias blanditiis nam deleniti, recusandae obcaecati ut ex sunt,
+                cumque inventore commodi aspernatur in quidem?
+              </p>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                laudantium asperiores consequatur molestiae, itaque consectetur
+                alias blanditiis
+              </p>
+
+              <ul class="list">
+                <li class="list__item">We are close to the beach</li>
+                <li class="list__item">Breakfast included</li>
+                <li class="list__item">Free airport shuttle</li>
+                <li class="list__item">free wifi available</li>
+                <li class="list__item">Air conditioning and heating</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">Perfect for families</li>
+              </ul>
+
+              <div class="recommend">
+                <div class="recommend__count">
+                  <p class="recommend__count-text">
+                    Graccy and 3 other friends recomend this hotel
+                  </p>
+                </div>
+                <div class="recommend__friends">
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="friend 1"
+                    class="recommend__friends-photo"
+                  />
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="friend 2"
+                    class="recommend__friends-photo"
+                  />
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="friend 3"
+                    class="recommend__friends-photo"
+                  />
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="friend 4"
+                    class="recommend__friends-photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- ===========Users Review============= -->
+
+            <figure class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora quasi voluptatum atque doloremque odio.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="user photo"
+                    class="review__user-photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">OPEH SANDRINE</p>
+                    <p class="review__user-date">20th May, 2022</p>
+                  </div>
+
+                  <div class="review__rating">8.2</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="./img/marinus.jpg"
+                    alt="user photo"
+                    class="review__user-photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">EFEME ROYAL</p>
+                    <p class="review__user-date">27th March, 2020</p>
+                  </div>
+
+                  <div class="review__rating">9.5</div>
+                </figcaption>
+              </figure>
+              <button class="inline__btn show-more-btn">
+                Show all <span> &rarr;</span>
+              </button>
+            </figure>
+          </div>
+
+          <div class="cta">
+            <h2 class="cta__heading">
+              good news! we have 4 free rooms for your selected dates!
+            </h2>
+            <button class="cta__btn">
+              <span class="btn-visible">book now</span>
+              <span class="btn-hidden">only 4 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
